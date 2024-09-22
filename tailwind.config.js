@@ -5,7 +5,11 @@ export default {
     colors: {
       "aside-color": "#F2F2F2",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
