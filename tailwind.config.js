@@ -4,10 +4,12 @@ export default {
   theme: {
     colors: {
       "aside-color": "#F2F2F2",
+      "bg-tecnologia": "#F2F2F2",
+      "bg-tecnologiaHover": "#DCDCDC",
     },
     extend: {
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
+        sans: ["Roboto", "sans-serif"],
       },
     },
   },
