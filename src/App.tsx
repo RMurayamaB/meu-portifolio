@@ -10,7 +10,7 @@ const App = () => {
         <div className="flex">
           <Aside />
           <div className="flex-1">
-            <NavBar />
+
             <MainContent />
           </div>
         </div>

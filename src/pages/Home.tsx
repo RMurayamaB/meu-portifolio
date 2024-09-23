@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Home = () => {
   return (
-    <div className="max-w-4xl mx-auto text-left">
+    <div className="max-w-4xl mx-auto text-left text-mainText">
       <h1 className="text-5xl font-bold mb-2">Sobre mim</h1>
       <p className="text-2xl font-bold mb-4">Rafael Murayama Barcelos</p>
       <p className="text-lg mb-8">
