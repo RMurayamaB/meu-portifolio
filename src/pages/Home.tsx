@@ -31,8 +31,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem
-        Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem Ipsem lorem
+        Olá! Meu nome é Rafael Murayama Barcelos. Sou apaixonado por desenvolvimento front-end e atualmente estou focado em estudar ReactJS. Com um olhar atento aos detalhes e uma busca constante por inovação, busco criar interfaces intuitivas e responsivas que proporcionem uma experiência excepcional aos usuários.
       </motion.p>
       <motion.div
         className="flex flex-col items-center space-y-4 sm:flex-row sm:justify-between sm:space-y-0 sm:space-x-8 text-center"
