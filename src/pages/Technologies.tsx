@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Technologies = () => {
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 15 },
     visible: { opacity: 1, y: 0 },
   };
 
@@ -70,13 +70,17 @@ const Technologies = () => {
           ].map((tool, index) => (
             <motion.div
               key={index}
-              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-blur duration-300"
+              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform  hover:bg-bgFerramentasHover hover:shadow-blur duration-500"
               variants={itemVariants}
               initial="hidden"
               animate="visible"
               transition={{ delay: index * 0.1 }}
             >
-              <img src={tool.src} alt={tool.alt} />
+              <img
+                className="transition-transform transform hover:scale-110"
+                src={tool.src}
+                alt={tool.alt}
+              />
               <span className="text-btnText">{tool.text}</span>
             </motion.div>
           ))}
@@ -87,7 +91,7 @@ const Technologies = () => {
         <h3 className="text-3xl text-mainText font-bold mb-4 mt-8">Testes</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-light">
           <motion.div
-            className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-lg duration-300"
+            className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-blur duration-500"
             variants={itemVariants}
             initial="hidden"
             animate="visible"
@@ -96,6 +100,7 @@ const Technologies = () => {
             <img
               src="/src/image/jest-snapshot-svgrepo-com.svg"
               alt="logo Jest"
+              className="transition-transform transform hover:scale-110"
             />
             <span className="text-btnText">Jest</span>
           </motion.div>
@@ -108,7 +113,7 @@ const Technologies = () => {
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-light">
           <motion.div
-            className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-lg duration-300"
+            className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform hover:bg-bgFerramentasHover hover:shadow-blur duration-300"
             variants={itemVariants}
             initial="hidden"
             animate="visible"
@@ -117,6 +122,7 @@ const Technologies = () => {
             <img
               src="/src/image/postgresql-svgrepo-com.svg"
               alt="logo PostgreSQL"
+              className="transition-transform transform hover:scale-110"
             />
             <span className="text-btnText">PostgreSQL</span>
           </motion.div>
