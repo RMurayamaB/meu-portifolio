@@ -1,7 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Aside from "./components/Aside";
 import MainContent from "./components/MainContent";
-import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
@@ -10,7 +9,6 @@ const App = () => {
         <div className="flex">
           <Aside />
           <div className="flex-1">
-
             <MainContent />
           </div>
         </div>

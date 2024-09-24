@@ -74,7 +74,7 @@ const Technologies = () => {
               variants={itemVariants}
               initial="hidden"
               animate="visible"
-              transition={{ delay: index * 0.1 }} // Delay for staggering effect
+              transition={{ delay: index * 0.1 }}
             >
               <img src={tool.src} alt={tool.alt} />
               <span className="text-btnText">{tool.text}</span>
