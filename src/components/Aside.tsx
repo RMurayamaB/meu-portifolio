@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Aside = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const asideRef = useRef<HTMLDivElement | null>(null);
+  const asideRef = useRef<HTMLDivElement>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (asideRef.current && !asideRef.current.contains(event.target as Node)) {
