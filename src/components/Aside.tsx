@@ -28,7 +28,7 @@ const Aside = () => {
     <>
       <aside
         ref={asideRef}
-        className={`fixed bg-aside-color p-6 transition-transform duration-300 ${
+        className={`fixed bg-aside-color z-20 p-6 transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } w-80 h-screen md:translate-x-0 md:block`}
       >
