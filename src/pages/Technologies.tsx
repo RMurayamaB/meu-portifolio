@@ -15,7 +15,7 @@ const Technologies = () => {
       <section className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold mb-4 text-mainText">Front-End</h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-light">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-normal">
           {[
             {
               src: "/src/image/html-5-svgrepo-com.svg",
@@ -62,10 +62,15 @@ const Technologies = () => {
               alt: "logo Figma",
               text: "Figma",
             },
+            {
+              src: "/src/image/framer-svgrepo-com(3).svg",
+              alt: "logo Framer Motion",
+              text: "Framer Motion",
+            },
           ].map((tool, index) => (
             <motion.div
               key={index}
-              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-lg duration-300"
+              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform transform hover:scale-105 hover:bg-bgFerramentasHover hover:shadow-blur duration-300"
               variants={itemVariants}
               initial="hidden"
               animate="visible"
