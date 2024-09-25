@@ -31,7 +31,13 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Olá! Meu nome é Rafael Murayama Barcelos. Sou apaixonado por desenvolvimento front-end e atualmente estou focado em estudar ReactJS. Com um olhar atento aos detalhes e uma busca constante por inovação, busco criar interfaces intuitivas e responsivas que proporcionem uma experiência excepcional aos usuários.
+        Olá! Eu sou Rafael Murayama Barcelos, um entusiasta do desenvolvimento
+        front-end com paixão por criar experiências digitais cativantes.
+        Atualmente, estou focado no estudo de ReactJS e outras tecnologias
+        modernas, sempre com atenção aos detalhes e uma busca contínua por
+        inovação. Meu objetivo é desenvolver interfaces intuitivas e responsivas
+        que ofereçam aos usuários uma experiência fluida e envolvente, aliando
+        estética e funcionalidade de forma estratégica.
       </motion.p>
       <motion.div
         className="flex flex-col items-center space-y-4 sm:flex-row sm:justify-between sm:space-y-0 sm:space-x-8 text-center"
@@ -57,7 +63,7 @@ const Home = () => {
         </a>
         <div className="flex ">
           <Mail size={28} className="mr-2" />
-          <span>Email: rafaelbarcelos@gmail.com</span>
+          <span>Email: rafaelmurayama@hotmail.com</span>
         </div>
         <div className="flex">
           <Phone size={28} className="mr-2" />
