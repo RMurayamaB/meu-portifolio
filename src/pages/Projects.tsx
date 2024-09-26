@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Ecommerce",
       description:
         "Desenvolvi um e-commerce usando Vite, JavaScript e Tailwind CSS, integrado à API do Mercado Livre para exibir produtos. O projeto inclui um carrinho de compras funcional com cálculo em tempo real e uma interface moderna e responsiva.",
-      imageSrc: "/image/Ecommerce.png",
+      imageSrc: "/src/assets/image/Ecommerce.png",
       liveLink: "https://ecommerce-rosy-omega.vercel.app/",
       codeLink: "https://github.com/RMurayamaB/Ecommerce",
     },
@@ -14,7 +14,7 @@ const Projects = () => {
       title: "Site kiris",
       description:
         "Desenvolvi um site de moda como parte de um trabalho acadêmico no primeiro período da faculdade, utilizando HTML e CSS. O site apresenta um layout responsivo e organizado com seções para calças, shorts, camisetas e página de login.",
-      imageSrc: "/image/Kiris.jpg",
+      imageSrc: "/src/assets/image/Kiris.jpg",
       liveLink: "https://site-kiris-moda.vercel.app/",
       codeLink: "https://github.com/RMurayamaB/Site-kiris-moda",
     },

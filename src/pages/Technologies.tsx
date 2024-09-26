@@ -18,52 +18,52 @@ const Technologies = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-normal">
           {[
             {
-              src: "/image/html-5-svgrepo-com.svg",
+              src: "/src/assets/image/html-5-svgrepo-com.svg",
               alt: "logo html5",
               text: "HTML",
             },
             {
-              src: "image/css-3-svgrepo-com.svg",
+              src: "/src/assets/image/css-3-svgrepo-com.svg",
               alt: "logo CSS3",
               text: "CSS",
             },
             {
-              src: "/image/javascript-svgrepo-com.svg",
+              src: "/src/assets/image/javascript-svgrepo-com.svg",
               alt: "logo javascript",
               text: "JavaScript",
             },
             {
-              src: "/image/typescript-icon-svgrepo-com.svg",
+              src: "/src/assets/image/typescript-icon-svgrepo-com.svg",
               alt: "logo TypeScript",
               text: "TypeScript",
             },
             {
-              src: "/image/react-javascript-js-framework-facebook-svgrepo-com.svg",
+              src: "/src/assets/image/react-javascript-js-framework-facebook-svgrepo-com.svg",
               alt: "logo React JS",
               text: "React",
             },
             {
-              src: "/image/react-router-svgrepo-com.svg",
+              src: "/src/assets/image/react-router-svgrepo-com.svg",
               alt: "React router",
               text: "React Router",
             },
             {
-              src: "/image/tailwindcss-icon-svgrepo-com.svg",
+              src: "/src/assets/image/tailwindcss-icon-svgrepo-com.svg",
               alt: "logo Tailwindcss",
               text: "TailwindCSS",
             },
             {
-              src: "/image/vite-svgrepo-com.svg",
+              src: "/src/assets/image/vite-svgrepo-com.svg",
               alt: "logo Vite",
               text: "Vite",
             },
             {
-              src: "/image/figma-svgrepo-com.svg",
+              src: "/src/assets/image/figma-svgrepo-com.svg",
               alt: "logo Figma",
               text: "Figma",
             },
             {
-              src: "/image/framer-svgrepo-com(3).svg",
+              src: "/src/assets/image/framer-svgrepo-com(3).svg",
               alt: "logo Framer Motion",
               text: "Framer Motion",
             },
@@ -98,7 +98,7 @@ const Technologies = () => {
             transition={{ delay: 0.3 }}
           >
             <img
-              src="/image/jest-snapshot-svgrepo-com.svg"
+              src="/src/assets/image/jest-snapshot-svgrepo-com.svg"
               alt="logo Jest"
               className="transition-transform transform hover:scale-110"
             />
@@ -120,7 +120,7 @@ const Technologies = () => {
             transition={{ delay: 0.3 }}
           >
             <img
-              src="/image/postgresql-svgrepo-com.svg"
+              src="/src/assets/image/postgresql-svgrepo-com.svg"
               alt="logo PostgreSQL"
               className="transition-transform transform hover:scale-110"
             />
