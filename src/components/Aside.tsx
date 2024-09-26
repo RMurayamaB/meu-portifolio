@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import profileImage from "../assets/image.jpg";
 
 const Aside = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ const Aside = () => {
       >
         <div className="w-fit mx-auto mt-5 mb-6">
           <img
-            src="/src/assets/image/image.jpg"
+            src={profileImage}
             alt="Foto de perfil"
             className="w-32 h-32 rounded-full object-cover"
           />

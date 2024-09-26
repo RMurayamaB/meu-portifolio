@@ -1,4 +1,16 @@
 import { motion } from "framer-motion";
+import html from "../assets/html-5-svgrepo-com.svg";
+import css from "../assets/css-3-svgrepo-com.svg";
+import javascript from "../assets/javascript-svgrepo-com.svg";
+import typescript from "../assets/typescript-icon-svgrepo-com.svg";
+import react from "../assets/react-javascript-js-framework-facebook-svgrepo-com.svg";
+import reactRouter from "../assets/react-router-svgrepo-com.svg";
+import tailwind from "../assets/tailwindcss-icon-svgrepo-com.svg";
+import vite from "../assets/vite-svgrepo-com.svg";
+import figma from "../assets/figma-svgrepo-com.svg";
+import framer from "../assets/framer-svgrepo-com(3).svg";
+import jest from "../assets/jest-snapshot-svgrepo-com.svg";
+import postgresql from "../assets/postgresql-svgrepo-com.svg";
 
 const Technologies = () => {
   const itemVariants = {
@@ -18,59 +30,59 @@ const Technologies = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-normal">
           {[
             {
-              src: "../assets/image/html-5-svgrepo-com.svg",
+              src: html,
               alt: "logo html5",
               text: "HTML",
             },
             {
-              src: "/src/assets/image/css-3-svgrepo-com.svg",
+              src: css,
               alt: "logo CSS3",
               text: "CSS",
             },
             {
-              src: "/src/assets/image/javascript-svgrepo-com.svg",
-              alt: "logo javascript",
+              src: javascript,
+              alt: "logo JavaScript",
               text: "JavaScript",
             },
             {
-              src: "/src/assets/image/typescript-icon-svgrepo-com.svg",
+              src: typescript,
               alt: "logo TypeScript",
               text: "TypeScript",
             },
             {
-              src: "/src/assets/image/react-javascript-js-framework-facebook-svgrepo-com.svg",
+              src: react,
               alt: "logo React JS",
               text: "React",
             },
             {
-              src: "/src/assets/image/react-router-svgrepo-com.svg",
-              alt: "React router",
+              src: reactRouter,
+              alt: "React Router",
               text: "React Router",
             },
             {
-              src: "/src/assets/image/tailwindcss-icon-svgrepo-com.svg",
-              alt: "logo Tailwindcss",
+              src: tailwind,
+              alt: "logo Tailwind CSS",
               text: "TailwindCSS",
             },
             {
-              src: "/src/assets/image/vite-svgrepo-com.svg",
+              src: vite,
               alt: "logo Vite",
               text: "Vite",
             },
             {
-              src: "/src/assets/image/figma-svgrepo-com.svg",
+              src: figma,
               alt: "logo Figma",
               text: "Figma",
             },
             {
-              src: "/src/assets/image/framer-svgrepo-com(3).svg",
+              src: framer,
               alt: "logo Framer Motion",
               text: "Framer Motion",
             },
           ].map((tool, index) => (
             <motion.div
               key={index}
-              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform  hover:bg-bgFerramentasHover hover:shadow-blur duration-500"
+              className="flex items-center gap-3 p-3 rounded-lg bg-bgFerramentas transition-transform hover:bg-bgFerramentasHover hover:shadow-blur duration-500"
               variants={itemVariants}
               initial="hidden"
               animate="visible"
@@ -98,7 +110,7 @@ const Technologies = () => {
             transition={{ delay: 0.3 }}
           >
             <img
-              src="/src/assets/image/jest-snapshot-svgrepo-com.svg"
+              src={jest}
               alt="logo Jest"
               className="transition-transform transform hover:scale-110"
             />
@@ -120,7 +132,7 @@ const Technologies = () => {
             transition={{ delay: 0.3 }}
           >
             <img
-              src="/src/assets/image/postgresql-svgrepo-com.svg"
+              src={postgresql}
               alt="logo PostgreSQL"
               className="transition-transform transform hover:scale-110"
             />
