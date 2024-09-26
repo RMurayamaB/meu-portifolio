@@ -18,7 +18,7 @@ const Technologies = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 font-normal">
           {[
             {
-              src: "/src/assets/image/html-5-svgrepo-com.svg",
+              src: "../assets/image/html-5-svgrepo-com.svg",
               alt: "logo html5",
               text: "HTML",
             },
