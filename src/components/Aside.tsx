@@ -34,7 +34,7 @@ const Aside = () => {
       >
         <div className="w-fit mx-auto mt-5 mb-6">
           <img
-            src="/src/image/image.jpg"
+            src="/public/image/image.jpg"
             alt="Foto de perfil"
             className="w-32 h-32 rounded-full object-cover"
           />
