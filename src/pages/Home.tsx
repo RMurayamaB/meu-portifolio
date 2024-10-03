@@ -10,7 +10,7 @@ const Home = () => {
       transition={{ duration: 0.6 }}
     >
       <motion.h1
-        className="text-5xl font-bold mb-2"
+        className="text-5xl font-semibold mb-6"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
@@ -18,7 +18,7 @@ const Home = () => {
         Sobre mim
       </motion.h1>
       <motion.p
-        className="text-2xl font-bold mb-4"
+        className="text-5xl font-extrabold mb-6"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
@@ -26,7 +26,7 @@ const Home = () => {
         Rafael Murayama Barcelos
       </motion.p>
       <motion.p
-        className="text-lg mb-8"
+        className="text-xl flex items-center justify-center mb-6"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
