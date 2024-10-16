@@ -3,5 +3,5 @@
 
 🌟 Sobre o Projeto
 
-Neste projeto, desenvolvi meu primeiro portfólio utilizando HTML, Tailwind CSS, React, React Router e Vite. O objetivo foi criar uma apresentação atraente e funcional dos meus trabalhos, além de demonstrar minhas habilidades em desenvolvimento web.
+Neste projeto, desenvolvi meu primeiro portfólio utilizando Typescript, Tailwind CSS, React, React Router e Vite. O objetivo foi criar uma apresentação atraente e funcional dos meus trabalhos, além de demonstrar minhas habilidades em desenvolvimento web.
 
